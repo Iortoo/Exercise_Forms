@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercise, HTML forms</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Exercise, HTML forms</h1>
+        <form action="http://www.no-where.com/formhandler.php" method="get">
+            
+            <fieldset>
+                <legend>My Form</legend>
+                <input type="text">
+                <label>First field:
+                    <input type="text" name="firstField" id="firstField" value="Type here">
+                </label>
+                <label>Second field:
+                    <input type="text" name="secondField" id="secondField">
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit this form">
+        <input type="reset">
+    </form>
+
+<br>
+
+
+<form>
+    <label for="fruit">Choose a fruit</label>
+
+    <select name="fruit" id="fruit">
+        <option value="Apple">Apple</option>
+        <option value="Banana">Banana</option>
+        <option value="Kiwi" selected >Kiwi</option>
+        <option value="Orange">Orange</option>
+    </select>
+
+</form>
+
+<br>
+
+<form>
+<label><input type="checkbox"> option 1</label>
+<br>
+<label><input type="checkbox"> option 2</label>
+<br>
+<label><input type="checkbox"> option 3</label>
+</form>
+
+<br>
+
+<form>
+    
+ <label><input type="radio" >Heavy Metal</label>
+ <br>
+ <label><input type="radio" >Rock</label>
+ <br>
+ <label><input type="radio" >Punk</label>
+ <br>
+ <label><input type="radio">Indi</label>
+ <br>
+ <label><input type="radio">Pop</label>
+ <br>
+ <label><input type="radio">Electronic</label>
+ <br>
+ <label><input type="radio">Countr</label>
+ <br>
+ <label><input type="radio">Classical</label>
+ <br>
+ <label><input type="radio">Jazz</label>
+ 
+
+
+    
+
+
+</form>
+
+        <p>Try to use forms.</p>
+        <ol>
+            <li>Add a reset button to the form above.</li>
+            <li>Add a text area to the form above.</li>
+            <li>Create a form and put the following items in a drop-down list or datalist control:
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Kiwi</li>
+                    <li>Orange</li>
+                </ul>
+                The list should defeault select Kiwi.
+            </li>
+            <li>Create a form that uses the checkbox type of input (2 or more options).</li>
+            <li>Create a form that uses the radio type of input with the following music genres: Heavy Metal, Rock, Punk, Indie, Pop, Electronic, Country, Classical, and Jazz.</li>
+            <li>Style your forms with CSS.</li>
+        </ol>
+    </body>
+</html>
